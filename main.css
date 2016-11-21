@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+===================
+Let the coding begin
+===================
+*/
+
+/*
+================
+custom styles
+================
+*/
+
+body {
+  background: black;
+  margin: 0 auto;
+}
+
+/*
+==================
+images
+==================
+*/
+
+.background-image {
+  height: 500px;
+  width: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+
+.background-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+==================
+Paragraphs
+==================
+*/
+
+.mission-container {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.mission-container h1 {
+  font: bold 46px "Helvetica Neue", Helvetica,     Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mission-container p {
+  padding-top: 50px;
+  font: 20px "Helvetica Neue", Helvetica,     Arial, sans-serif;
+  color: white;
+  line-height: 1.5;
+}
+
+.mission-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+=================
+headers
+=================
+*/
+
+.main-header {
+  background: black;
+}
+
+/*
+==================
+Venue and Artist
+==================
+*/
+
+.venue-main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.venues {
+  width: 50%;
+  float: left;
+  padding-bottom: 80px;
+}
+
+.venues img {
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+.venues h1 {
+  font: bold 30px "Helvetica Neue", Helvetica,     Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.venues h1,
+.venues p {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.venues p {
+  font: 16px "Helvetica Neue", Helvetica,     Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/*
+=================
+Links
+=================
+*/
+.links-main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.links-main p {
+  text-align: center;
+}
+
+.links-main a {
+  text-decoration: none;
+}
+
+/*
+==================
+Navigation
+==================
+*/
+.navigation {
+  padding: 20px;
+}
+
+.navigation ul {
+  text-align: center;
+}
+
+.navigation ul {
+  font: bold 11px "Helvetica Neue", Helvetica,     Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  background: #395870;
+  background: black;
+  border-right: 1px solid rgba(100, 100, 100, .3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background: white;
+  color: black;
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.navigation li:last-child a {
+  border-right: 0;
+}
+
+/*
+================
+Grid
+================
+*/
+
+.col-2-3 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-1-3 {
+  width: 33.33%;
+  float: left;
+}
